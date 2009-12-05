@@ -1,4 +1,4 @@
-/* valac --debug --pkg midgard2 -c example.vala --vapidir=./ */
+/* valac --debug --pkg midgard2 -o midgard-vala-example example.vala --vapidir=./ */
 
 using GLib;
 using Midgard;
@@ -8,11 +8,11 @@ namespace MidgardValaExample {
 	void main() {
 	
 		Midgard.Config config = new Midgard.Config();
-		/*try {
-			config.read_file ("midgard", true);
+		try {
+			config.read_file ("midgard_test", true);
 		} catch ( GLib.Error e) {
 
-		}*/
+		}
 
 		Midgard.Connection cnc = new Midgard.Connection();
 		cnc.open_config (config);
