@@ -26,7 +26,15 @@ midgard_user.dbpriv hidden=1
 
 # API tweaks
 
+# MidgardConnection
+midgard_connection_set_loglevel.log_func nullable=1 
+
+# MidgardObject 
 midgard_object_new.value nullable=1
+
+# MidgardQueryBuilder
+midgard_query_builder_execute.n_objects hidden=1
+midgard_query_builder_execute is_array=1
 
 # Temporary workarounds
 midgard_object_list_children hidden=1
