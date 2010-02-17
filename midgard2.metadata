@@ -23,6 +23,9 @@ MidgardView.dbpriv hidden=1
 MidgardViewClass.dbpriv hidden=1
 midgard_dbobject.dbpriv hidden=1
 midgard_user.dbpriv hidden=1
+MidgardQueryProperty.klass hidden=1
+MidgardQuerySimpleConstraint hidden=1
+MidgardQueryHolderIFace hidden=1
 
 # API tweaks
 
