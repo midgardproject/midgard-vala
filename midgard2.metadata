@@ -40,6 +40,12 @@ midgard_object_new.value nullable=1
 midgard_query_builder_execute.n_objects hidden=1
 midgard_query_builder_execute is_array=1
 
+# MidgardQueryConstraint 
+midgard_query_constraint_new.storage nullable=1
+
+# MidgardQueryProperty
+midgard_query_property_new.classname nullable=1
+
 # Temporary workarounds
 midgard_object_list_children hidden=1
 midgard_reflection_property_new hidden=1
