@@ -27,6 +27,7 @@ MidgardQueryProperty.klass hidden=1
 MidgardQuerySimpleConstraint hidden=1
 MidgardQueryHolderIFace hidden=1
 MidgardQuerySimpleConstraintIFace.parent hidden=1
+MidgardQuerySimpleConstraintIFace.priv hidden=1
 
 # API tweaks
 
@@ -42,9 +43,18 @@ midgard_query_builder_execute is_array=1
 
 # MidgardQueryConstraint 
 midgard_query_constraint_new.storage nullable=1
+midgard_query_constraint_list_constraints.n_objects hidden=1
+
+# MidgardQuerySimpleConstraint
+midgard_query_simple_constraint_list_constraints.n_objects hidden=1
+
+#MidgardQueryGroupConstraint
+midgard_query_group_constraint_new ellipsis=1
+midgard_query_group_constraint_add_constraint ellipsis=1
+midgard_query_group_constraint_list_constraints.n_objects hidden=1
 
 # MidgardQueryProperty
-midgard_query_property_new.classname nullable=1
+midgard_query_property_new.storage nullable=1
 
 # Temporary workarounds
 midgard_object_list_children hidden=1
