@@ -41,6 +41,10 @@ midgard_object_new.value nullable=1
 midgard_query_builder_execute.n_objects hidden=1
 midgard_query_builder_execute is_array=1
 
+# MidgardQuerySelect
+midgard_query_select_list_objects.n_objects hidden=1
+midgard_query_select_list_objects is_array=1
+
 # MidgardQueryConstraint 
 midgard_query_constraint_new.storage nullable=1
 midgard_query_constraint_list_constraints.n_objects hidden=1
