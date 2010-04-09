@@ -64,9 +64,10 @@ midgard_query_property_new.storage nullable=1
 midgard_reflector_property_get_link_class hidden=1
 
 # Temporary workarounds
-midgard_object_list_children hidden=1
 midgard_reflection_property_new hidden=1
 midgard_reflection_property_get_link_class hidden=1
+
+midgard_object_list_children hidden=1
 midgard_collector_get hidden=1
 midgard_replicator_export_purged hidden=1
 midgard_object_parent hidden=1
@@ -79,6 +80,5 @@ midgard_object_class_get_property_up hidden=1
 midgard_object_class_get_schema_value hidden=1
 midgard_object_class_has_metadata hidden=1
 midgard_object_class_list_children hidden=1
-midgard_config_create_class_table hidden=1
 MidgardQueryBuilder::execute hidden=1
 MidgardCollectorClass.parent hidden=1
