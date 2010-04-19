@@ -56,9 +56,9 @@ namespace MidgardQueryExample {
 		Midgard.QueryConstraint cnstr6 = new Midgard.QueryConstraint (prop6, "=", val6, null);
 	
 		/* Create two constraints group */
-		Midgard.QueryGroupConstraint group_constraint_and = new Midgard.QueryGroupConstraint ("AND", cnstr4, cnstr5, cnstr6);
+		Midgard.QueryConstraintGroup group_constraint_and = new Midgard.QueryConstraintGroup ("AND", cnstr4, cnstr5, cnstr6);
 
-		Midgard.QueryGroupConstraint group_constraint = new Midgard.QueryGroupConstraint ("OR", cnstr1, cnstr2, cnstr3, group_constraint_and);
+		Midgard.QueryConstraintGroup group_constraint = new Midgard.QueryConstraintGroup ("OR", cnstr1, cnstr2, cnstr3, group_constraint_and);
 
 		/* Add explicit joins */
 		Midgard.QueryProperty prop7 = new Midgard.QueryProperty ("metadata.creator", null);
