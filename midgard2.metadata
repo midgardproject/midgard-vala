@@ -70,6 +70,5 @@ midgard_reflector_property_get_link_class hidden=1
 midgard_reflection_property_new hidden=1
 midgard_reflection_property_get_link_class hidden=1
 midgard_collector_get hidden=1
-midgard_object_parent hidden=1
 MidgardQueryBuilder::execute hidden=1
 MidgardCollectorClass.parent hidden=1
