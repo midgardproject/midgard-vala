@@ -56,7 +56,7 @@ midgard_query_constraint_list_constraints.n_objects hidden=1
 midgard_query_constraint_simple_list_constraints.n_objects hidden=1
 
 #MidgardQueryConstraintGroup
-midgard_query_constraint_group_new ellipsis=1
+midgard_query_constraint_group_new
 midgard_query_constraint_group_add_constraint ellipsis=1
 midgard_query_constraint_group_list_constraints.n_objects hidden=1
 
