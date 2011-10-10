@@ -21,16 +21,26 @@ MidgardUser.priv hidden=1
 MidgardUserClass.dbpriv hidden=1
 MidgardView.dbpriv hidden=1
 MidgardViewClass.dbpriv hidden=1
+MidgardRepligard.dbpriv hidden=1
 MidgardReflectorProperty.priv hidden=1
 MidgardQueryExecutor.priv  hidden=1
 MidgardQueryProperty.klass hidden=1
 MidgardQueryProperty.priv hidden=1
 MidgardQueryStorage.priv hidden=1
 MidgardQueryValue.priv hidden=1
-MidgardQueryConstraintSimple hidden=1
 MidgardQueryHolderIFace hidden=1
 MidgardQueryConstraintSimpleIFace.parent hidden=1
 MidgardQueryConstraintSimpleIFace.priv hidden=1
+MidgardBaseInterfacePrivate hidden=1
+MidgardBaseInterfaceIFace.parent hidden=1
+MidgardBaseInterfaceIFace.priv hidden=1
+MidgardBaseMixinIFace.parent hidden=1
+MidgardExecutableIFace.parent hidden=1
+MidgardQueryConstraintSimpleIFace.parent hidden=1
+MidgardQueryHolderIFace.parent hidden=1
+MidgardValidableIFace.parent hidden=1
+MidgardWorkspaceStorageIFace.parent hidden=1
+MidgardWorkspaceStorageIFace.priv hidden=1
 
 # API tweaks
 
